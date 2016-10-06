@@ -9,14 +9,14 @@
 @prefix event: <http://purl.org/NET/c4dm/event.owl#> .
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix uri: <http://www.invincea.com/ontologies/icas/1.0/uri#> .
-@prefix : <http://www.invincea.com/ontologies/icas/1.0/uri-inferred#> .
+@prefix uri: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/uri#> .
+@prefix : <https://github.com/Rburkett/icas-ontology/edit/master/ontology/uri-inferred#> .
 
-<http://www.invincea.com/ontologies/icas/1.0/uri-inferred>
+<https://github.com/Rburkett/icas-ontology/edit/master/ontology/uri-inferred>
     a owl:Ontology ;
     rdfs:comment "This ontology contains additional predicates to the URI ontology, intended to be computationally inferred via an OWL reasoner"@en ;
     rdfs:label "Unifirm Resource Identifier Ontology - Inferred Axioms"@en ;
-    owl:imports <http://www.invincea.com/ontologies/icas/1.0/uri> ;
+    owl:imports <https://github.com/Rburkett/icas-ontology/edit/master/ontology/uri> ;
     owl:versionInfo "1.0"@en .
 
 :MaliciousContentURI

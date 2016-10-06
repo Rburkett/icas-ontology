@@ -9,10 +9,10 @@
 @prefix event: <http://purl.org/NET/c4dm/event.owl#> .
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix tapio: <http://www.invincea.com/ontologies/icas/1.0/tapio#> .
-@prefix : <http://www.invincea.com/ontologies/icas/1.0/mime#> .
+@prefix tapio: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/tapio#> .
+@prefix : <https://github.com/Rburkett/icas-ontology/edit/master/ontology/mime#> .
 
-<http://www.invincea.com/ontologies/icas/1.0/mime>
+<https://github.com/Rburkett/icas-ontology/edit/master/ontology/mime>
     dc:creator "Invincea Labs"@en ;
     dc:date "2014" ;
     dc:description "Describes elements related to the MIME content taxonomy and encoding standard"@en ;

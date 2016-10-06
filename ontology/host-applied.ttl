@@ -9,14 +9,14 @@
 @prefix event: <http://purl.org/NET/c4dm/event.owl#> .
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix : <http://www.invincea.com/ontologies/icas/1.0/host-applied#> .
-@prefix host: <http://www.invincea.com/ontologies/icas/1.0/host#> .
+@prefix : <https://github.com/Rburkett/icas-ontology/edit/master/ontology/host-applied#> .
+@prefix host: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/host#> .
 
-<http://www.invincea.com/ontologies/icas/1.0/host-applied>
+<https://github.com/Rburkett/icas-ontology/edit/master/ontology/host-applied>
     a owl:Ontology ;
     rdfs:comment "This ontology contains additional predicates to the Host ontology, intended to only be applied manually by a security analyst in the course of their work."@en ;
     rdfs:label "Host Ontology "@en ;
-    owl:imports <http://www.invincea.com/ontologies/icas/1.0/host> ;
+    owl:imports <https://github.com/Rburkett/icas-ontology/edit/master/ontology/host> ;
     owl:versionInfo "1.0"@en .
 
 :CompromisedHost

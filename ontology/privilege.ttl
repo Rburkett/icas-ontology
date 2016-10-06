@@ -9,16 +9,16 @@
 @prefix event: <http://purl.org/NET/c4dm/event.owl#> .
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix tapio: <http://www.invincea.com/ontologies/icas/1.0/tapio#> .
-@prefix acl: <http://www.invincea.com/ontologies/icas/1.0/acl#> .
-@prefix authentication: <http://www.invincea.com/ontologies/icas/1.0/authentication#> .
-@prefix filesystem: <http://www.invincea.com/ontologies/icas/1.0/filesystem#> .
-@prefix user: <http://www.invincea.com/ontologies/icas/1.0/user#> .
-@prefix process: <http://www.invincea.com/ontologies/icas/1.0/process#> .
-@prefix uri: <http://www.invincea.com/ontologies/icas/1.0/uri#> .
-@prefix : <http://www.invincea.com/ontologies/icas/1.0/privilege#> .
+@prefix tapio: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/tapio#> .
+@prefix acl: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/acl#> .
+@prefix authentication: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/authentication#> .
+@prefix filesystem: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/filesystem#> .
+@prefix user: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/user#> .
+@prefix process: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/process#> .
+@prefix uri: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/uri#> .
+@prefix : <https://github.com/Rburkett/icas-ontology/edit/master/ontology/privilege#> .
 
-<http://www.invincea.com/ontologies/icas/1.0/privilege>
+<https://github.com/Rburkett/icas-ontology/edit/master/ontology/privilege>
     dc:creator "Invincea Labs"@en ;
     dc:date "2014" ;
     dc:description "Links entities together based on their ability to modify other elements. Describes the path of modifications and access between other ontologies."@en ;

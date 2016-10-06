@@ -9,14 +9,14 @@
 @prefix event: <http://purl.org/NET/c4dm/event.owl#> .
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix tapio: <http://www.invincea.com/ontologies/icas/1.0/tapio#> .
-@prefix host: <http://www.invincea.com/ontologies/icas/1.0/host#> .
-@prefix uri: <http://www.invincea.com/ontologies/icas/1.0/uri#> .
-@prefix filesystemartifacts: <http://www.invincea.com/ontologies/icas/1.0/filesystemartifacts#> .
-@prefix memoryartifacts: <http://www.invincea.com/ontologies/icas/1.0/memoryartifacts#> .
-@prefix : <http://www.invincea.com/ontologies/icas/1.0/indicators#> .
+@prefix tapio: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/tapio#> .
+@prefix host: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/host#> .
+@prefix uri: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/uri#> .
+@prefix filesystemartifacts: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/filesystemartifacts#> .
+@prefix memoryartifacts: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/memoryartifacts#> .
+@prefix : <https://github.com/Rburkett/icas-ontology/edit/master/ontology/indicators#> .
 
-<http://www.invincea.com/ontologies/icas/1.0/indicators>
+<https://github.com/Rburkett/icas-ontology/edit/master/ontology/indicators>
     dc:creator "Invincea Labs"@en ;
     dc:date "2014" ;
     dc:description "Describes Security Indicators - combinations of states, behaviors and artifacts that indicate something is either exposed to, or currently compromised by, a security threat actor."@en ;

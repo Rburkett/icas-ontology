@@ -10,24 +10,24 @@
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix mere: <http://www.bbn.com/ontologies/domain/foundation/mereology#> .
-@prefix user: <http://www.invincea.com/ontologies/icas/1.0/user#> .
-@prefix filesystem: <http://www.invincea.com/ontologies/icas/1.0/filesystem#> .
-@prefix tapio: <http://www.invincea.com/ontologies/icas/1.0/tapio#> .
-@prefix memory: <http://www.invincea.com/ontologies/icas/1.0/memory#> .
-@prefix ipnet: <http://www.invincea.com/ontologies/icas/1.0/ipnet#> .
-@prefix hardware: <http://www.invincea.com/ontologies/icas/1.0/hardware#> .
-@prefix process: <http://www.invincea.com/ontologies/icas/1.0/process#> .
-@prefix host: <http://www.invincea.com/ontologies/icas/1.0/host#> .
-@prefix : <http://www.invincea.com/ontologies/icas/1.0/memoryartifacts#> .
+@prefix user: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/user#> .
+@prefix filesystem: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/filesystem#> .
+@prefix tapio: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/tapio#> .
+@prefix memory: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/memory#> .
+@prefix ipnet: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/ipnet#> .
+@prefix hardware: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/hardware#> .
+@prefix process: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/process#> .
+@prefix host: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/host#> .
+@prefix : <https://github.com/Rburkett/icas-ontology/edit/master/ontology/memoryartifacts#> .
 
-<http://www.invincea.com/ontologies/icas/1.0/memoryartifacts>
+<https://github.com/Rburkett/icas-ontology/edit/master/ontology/memoryartifacts>
     dc:creator "Invincea Labs"@en ;
     dc:date "2014" ;
     dc:description "An extended Ontology that contains extremely fine-grained objects that deal with forensic artifacts from computer memory. This ontology is directly dependent upon the Memory ontology, but split off into a seperate namespace to allow use of the basic memory ontology when this level of detail is not required."@en ;
     a owl:Ontology ;
     rdfs:comment "An extended Ontology that contains extremely fine-grained objects that deal with forensic artifacts from computer memory. This ontology is directly dependent upon the Memory ontology, but split off into a seperate namespace to allow use of the basic memory ontology when this level of detail is not required."@en ;
     rdfs:label "Memory Artifacts Ontology"@en ;
-    owl:imports <http://www.invincea.com/ontologies/icas/1.0/filesystem>, <http://www.invincea.com/ontologies/icas/1.0/memory>, <http://www.invincea.com/ontologies/icas/1.0/process> ;
+    owl:imports <https://github.com/Rburkett/icas-ontology/edit/master/ontology/filesystem>, <https://github.com/Rburkett/icas-ontology/edit/master/ontology/memory>, <https://github.com/Rburkett/icas-ontology/edit/master/ontology/process> ;
     owl:versionInfo "1.0" .
 
 :ApiHook

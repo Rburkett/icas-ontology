@@ -10,22 +10,22 @@
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix mere: <http://www.bbn.com/ontologies/domain/foundation/mereology#> .
-@prefix nic: <http://www.invincea.com/ontologies/icas/1.0/nic#> .
-@prefix uri: <http://www.invincea.com/ontologies/icas/1.0/uri#> .
+@prefix nic: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/nic#> .
+@prefix uri: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/uri#> .
 @prefix vcard: <http://www.w3.org/wiki/images/2/2b/Vcard.rdf#> .
-@prefix tapio: <http://www.invincea.com/ontologies/icas/1.0/tapio#> .
-@prefix process: <http://www.invincea.com/ontologies/icas/1.0/process#> .
-@prefix ipnet: <http://www.invincea.com/ontologies/icas/1.0/ipnet#> .
-@prefix : <http://www.invincea.com/ontologies/icas/1.0/dns#> .
+@prefix tapio: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/tapio#> .
+@prefix process: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/process#> .
+@prefix ipnet: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/ipnet#> .
+@prefix : <https://github.com/Rburkett/icas-ontology/edit/master/ontology/dns#> .
 
-<http://www.invincea.com/ontologies/icas/1.0/dns>
+<https://github.com/Rburkett/icas-ontology/edit/master/ontology/dns>
     dc:creator "Invincea Labs"@en ;
     dc:date "2014" ;
     dc:description "Ontology mapping DNS Record to network addresses and registrants"@en ;
     a owl:Ontology ;
     rdfs:comment "Ontology mapping DNS Record to network addresses and registrants"@en ;
     rdfs:label "DNS Ontology"@en ;
-    owl:imports <http://www.invincea.com/ontologies/icas/1.0/ipnet> ;
+    owl:imports <https://github.com/Rburkett/icas-ontology/edit/master/ontology/ipnet> ;
     owl:versionInfo "1.0" .
 
 :A

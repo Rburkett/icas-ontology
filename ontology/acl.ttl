@@ -15,14 +15,14 @@
 @prefix filesystem: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/filesystem#> .
 @prefix : <https://github.com/Rburkett/icas-ontology/edit/master/ontology/acl#> .
 
-<https://github.com/Rburkett/icas-ontology/edit/master/ontology/acl.ttl>
+<https://github.com/Rburkett/icas-ontology/edit/master/ontology/acl>
     dc:creator "Invincea Labs"@en ;
     dc:date "2014" ;
     dc:description "an ontology of common access control settings."@en ;
     a owl:Ontology ;
     rdfs:comment "an ontology of common access control settings."@en ;
     rdfs:label "Access Control List ontology"@en ;
-    owl:imports <https://github.com/Rburkett/icas-ontology/edit/master/ontology/user.ttl> ;
+    owl:imports <https://github.com/Rburkett/icas-ontology/edit/master/ontology/user> ;
     owl:versionInfo "1.0" .
 
 :ACL

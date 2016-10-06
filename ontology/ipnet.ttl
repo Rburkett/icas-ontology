@@ -9,36 +9,36 @@
 @prefix event: <http://purl.org/NET/c4dm/event.owl#> .
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix uri: <http://www.invincea.com/ontologies/icas/1.0/uri#> .
+@prefix uri: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/uri#> .
 @prefix mere: <http://www.bbn.com/ontologies/domain/foundation/mereology#> .
-@prefix nic: <http://www.invincea.com/ontologies/icas/1.0/nic#> .
-@prefix oui: <http://www.invincea.com/ontologies/icas/1.0/oui#> .
-@prefix user: <http://www.invincea.com/ontologies/icas/1.0/user#> .
-@prefix tapio: <http://www.invincea.com/ontologies/icas/1.0/tapio#> .
-@prefix authentication: <http://www.invincea.com/ontologies/icas/1.0/authentication#> .
-@prefix hardware: <http://www.invincea.com/ontologies/icas/1.0/hardware#> .
-@prefix datastream: <http://www.invincea.com/ontologies/icas/1.0/datastream#> .
-@prefix process: <http://www.invincea.com/ontologies/icas/1.0/process#> .
-@prefix dns: <http://www.invincea.com/ontologies/icas/1.0/dns#> .
-@prefix : <http://www.invincea.com/ontologies/icas/1.0/ipnet#> .
+@prefix nic: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/nic#> .
+@prefix oui: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/oui#> .
+@prefix user: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/user#> .
+@prefix tapio: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/tapio#> .
+@prefix authentication: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/authentication#> .
+@prefix hardware: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/hardware#> .
+@prefix datastream: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/datastream#> .
+@prefix process: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/process#> .
+@prefix dns: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/dns#> .
+@prefix : <https://github.com/Rburkett/icas-ontology/edit/master/ontology/ipnet#> .
 
-<http://www.invincea.com/ontologies/icas/1.0/ipnet>
+<https://github.com/Rburkett/icas-ontology/edit/master/ontology/ipnet>
     dc:creator "Invincea Labs"@en ;
     dc:date "2014" ;
     dc:description "Describes IPv4 and v6 logical network topologies, addressesing and connections."@en ;
     a owl:Ontology ;
     rdfs:comment "Describes IPv4 and v6 logical network topologies, addressesing and connections."@en ;
     rdfs:label "IP Networks Topology and Communications Ontology"@en ;
-    owl:imports <http://www.invincea.com/ontologies/icas/1.0/nic> ;
+    owl:imports <https://github.com/Rburkett/icas-ontology/edit/master/ontology/nic> ;
     owl:versionInfo "1.0" .
 
-<http://www.invincea.com/ontologies/icas/1.0/ipnet#0.0.0.0>
+<https://github.com/Rburkett/icas-ontology/edit/master/ontology/ipnet#0.0.0.0>
     :hasAddressValue "0"^^:ipv4address ;
     a :Address, owl:NamedIndividual ;
     rdfs:comment "The base address for the whole Internet"@en ;
     rdfs:label "0.0.0.0" .
 
-<http://www.invincea.com/ontologies/icas/1.0/ipnet#255.255.255.255>
+<https://github.com/Rburkett/icas-ontology/edit/master/ontology/ipnet#255.255.255.255>
     :hasAddressValue "4294967295"^^:ipv4address ;
     a :Address, owl:NamedIndividual ;
     rdfs:comment "The Global Broadcast Address for the whole Internet"@end ;

@@ -10,10 +10,10 @@
 @prefix mere: <http://www.bbn.com/ontologies/domain/foundation/mereology#> .
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix tapio: <http://www.invincea.com/ontologies/icas/1.0/tapio#> .
-@prefix : <http://www.invincea.com/ontologies/icas/1.0/datastream#> .
+@prefix tapio: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/tapio#> .
+@prefix : <https://github.com/Rburkett/icas-ontology/edit/master/ontology/datastream#> .
 
-<http://www.invincea.com/ontologies/icas/1.0/datastream>
+<https://github.com/Rburkett/icas-ontology/edit/master/ontology/datastream>
     dc:creator "Invincea Labs"@en ;
     dc:date "2014" ;
     dc:description "Describes data in motion, especially in regards to network connections."@en ;

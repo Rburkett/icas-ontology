@@ -8,7 +8,7 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix mere: <http://www.bbn.com/ontologies/domain/foundation/mereology#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix tapio: <http://www.invincea.com/ontologies/icas/1.0/tapio#> .
+@prefix tapio: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/tapio#> .
 @prefix : <http://purl.org/NET/c4dm/event.owl#> .
 
 <http://purl.org/NET/c4dm/event.owl>

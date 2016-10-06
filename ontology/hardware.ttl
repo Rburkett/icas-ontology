@@ -10,11 +10,11 @@
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix mere: <http://www.bbn.com/ontologies/domain/foundation/mereology#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix tapio: <http://www.invincea.com/ontologies/icas/1.0/tapio#> .
-@prefix host: <http://www.invincea.com/ontologies/icas/1.0/host#> .
-@prefix : <http://www.invincea.com/ontologies/icas/1.0/hardware#> .
+@prefix tapio: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/tapio#> .
+@prefix host: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/host#> .
+@prefix : <https://github.com/Rburkett/icas-ontology/edit/master/ontology/hardware#> .
 
-<http://www.invincea.com/ontologies/icas/1.0/hardware>
+<https://github.com/Rburkett/icas-ontology/edit/master/ontology/hardware>
     dc:creator "Invincea Labs"@en ;
     dc:date "2014" ;
     dc:description "This ontology contains elements related to physical and virtual devices, for computing, storage, communications and general peripheral functions."@en ;

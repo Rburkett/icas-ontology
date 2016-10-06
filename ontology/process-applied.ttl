@@ -9,14 +9,14 @@
 @prefix event: <http://purl.org/NET/c4dm/event.owl#> .
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix : <http://www.invincea.com/ontologies/icas/1.0/process-applied#> .
-@prefix process: <http://www.invincea.com/ontologies/icas/1.0/process#> .
+@prefix : <https://github.com/Rburkett/icas-ontology/edit/master/ontology/process-applied#> .
+@prefix process: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/process#> .
 
-<http://www.invincea.com/ontologies/icas/1.0/process-applied>
+<https://github.com/Rburkett/icas-ontology/edit/master/ontology/process-applied>
     a owl:Ontology ;
     rdfs:comment "This ontology contains additional predicates to the Process ontology, intended to only be applied manually by a security analyst in the course of their work."@en ;
     rdfs:label "Process Ontology - User Applied Elements"@en ;
-    owl:imports <http://www.invincea.com/ontologies/icas/1.0/process> ;
+    owl:imports <https://github.com/Rburkett/icas-ontology/edit/master/ontology/process> ;
     owl:versionInfo "1.0"@en .
 
 :CompromisedProcess

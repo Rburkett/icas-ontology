@@ -9,13 +9,13 @@
 @prefix event: <http://purl.org/NET/c4dm/event.owl#> .
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix : <http://www.invincea.com/ontologies/icas/1.0/email-applied#> .
+@prefix : <https://github.com/Rburkett/icas-ontology/edit/master/ontology/email-applied#> .
 
-<http://www.invincea.com/ontologies/icas/1.0/email-applied>
+<https://github.com/Rburkett/icas-ontology/edit/master/ontology/email-applied>
     a owl:Ontology ;
     rdfs:comment "This ontology contains additional predicates to the Email ontology, intended to only be applied manually by a security analyst in the course of their work."@en ;
     rdfs:label "Email Ontology - User Applied Elements"@en ;
-    owl:imports <http://www.invincea.com/ontologies/icas/1.0/email> ;
+    owl:imports <https://github.com/Rburkett/icas-ontology/edit/master/ontology/email> ;
     owl:versionInfo "1.0"@en .
 
 :PhishingEmail

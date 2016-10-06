@@ -10,22 +10,22 @@
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix mere: <http://www.bbn.com/ontologies/domain/foundation/mereology#> .
-@prefix tapio: <http://www.invincea.com/ontologies/icas/1.0/tapio#> .
-@prefix mime: <http://www.invincea.com/ontologies/icas/1.0/mime#> .
-@prefix uri: <http://www.invincea.com/ontologies/icas/1.0/uri#> .
-@prefix filesystem: <http://www.invincea.com/ontologies/icas/1.0/filesystem#> .
-@prefix dns: <http://www.invincea.com/ontologies/icas/1.0/dns#> .
-@prefix ipnet: <http://www.invincea.com/ontologies/icas/1.0/ipnet#> .
-@prefix : <http://www.invincea.com/ontologies/icas/1.0/email#> .
+@prefix tapio: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/tapio#> .
+@prefix mime: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/mime#> .
+@prefix uri: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/uri#> .
+@prefix filesystem: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/filesystem#> .
+@prefix dns: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/dns#> .
+@prefix ipnet: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/ipnet#> .
+@prefix : <https://github.com/Rburkett/icas-ontology/edit/master/ontology/email#> .
 
-<http://www.invincea.com/ontologies/icas/1.0/email>
+<https://github.com/Rburkett/icas-ontology/edit/master/ontology/email>
     dc:creator "Invincea Labs"@en ;
     dc:date "2014" ;
     dc:description "Ontology for origins, delivery and content of emails"@en ;
     a owl:Ontology ;
     rdfs:comment "Ontology for origins, delivery and content of email"@en ;
     rdfs:label "Email Objects and Services Ontology"@en ;
-    owl:imports <http://www.invincea.com/ontologies/icas/1.0/dns>, <http://www.invincea.com/ontologies/icas/1.0/filesystem>, <http://www.invincea.com/ontologies/icas/1.0/ipnet> ;
+    owl:imports <https://github.com/Rburkett/icas-ontology/edit/master/ontology/dns>, <https://github.com/Rburkett/icas-ontology/edit/master/ontology/filesystem>, <https://github.com/Rburkett/icas-ontology/edit/master/ontology/ipnet> ;
     owl:versionInfo "1.0" .
 
 :BCC

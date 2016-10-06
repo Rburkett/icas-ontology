@@ -9,14 +9,14 @@
 @prefix event: <http://purl.org/NET/c4dm/event.owl#> .
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix : <http://www.invincea.com/ontologies/icas/1.0/ipnet-inferred#> .
-@prefix ipnet: <http://www.invincea.com/ontologies/icas/1.0/ipnet#> .
+@prefix : <https://github.com/Rburkett/icas-ontology/edit/master/ontology/ipnet-inferred#> .
+@prefix ipnet: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/ipnet#> .
 
-<http://www.invincea.com/ontologies/icas/1.0/ipnet-inferred>
+<https://github.com/Rburkett/icas-ontology/edit/master/ontology/ipnet-inferred>
     a owl:Ontology ;
     rdfs:comment "This ontology contains additional predicates to the IPnet ontology, intended to be computationally inferred via an OWL reasoner"@en ;
     rdfs:label "IPNET Ontology - Inferred Axioms"@en ;
-    owl:imports <http://www.invincea.com/ontologies/icas/1.0/ipnet-applied> ;
+    owl:imports <https://github.com/Rburkett/icas-ontology/edit/master/ontology/ipnet-applied> ;
     owl:versionInfo "1.0"@en .
 
 :MaliciousConnection

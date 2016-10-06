@@ -10,10 +10,10 @@
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
-@prefix : <http://www.invincea.com/ontologies/icas/1.0/stix-common#> .
-@base <http://www.invincea.com/ontologies/icas/1.0/stix-common> .
+@prefix : <https://github.com/Rburkett/icas-ontology/edit/master/ontology/stix-common#> .
+@base <https://github.com/Rburkett/icas-ontology/edit/master/ontology/stix-common> .
 
-<http://www.invincea.com/ontologies/icas/1.0/stix-common> 
+<https://github.com/Rburkett/icas-ontology/edit/master/ontology/stix-common> 
 			rdf:type owl:Ontology ;
 			rdfs:label "STIX Common Elements Ontology"@en ;
 			owl:versionInfo "1.0"@en .

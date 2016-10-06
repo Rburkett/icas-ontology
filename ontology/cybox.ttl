@@ -10,12 +10,12 @@
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
-@prefix tapio: <http://www.invincea.com/ontologies/icas/1.0/tapio#> .
-@prefix dns: <http://www.invincea.com/ontologies/icas/1.0/dns#> .
-@prefix : <http://www.invincea.com/ontologies/icas/1.0/cybox#> .
-@base <http://www.invincea.com/ontologies/icas/1.0/cybox> .
+@prefix tapio: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/tapio#> .
+@prefix dns: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/dns#> .
+@prefix : <https://github.com/Rburkett/icas-ontology/edit/master/ontology/cybox#> .
+@base <https://github.com/Rburkett/icas-ontology/edit/master/ontology/cybox> .
 
-<http://www.invincea.com/ontologies/icas/1.0/cybox>
+<https://github.com/Rburkett/icas-ontology/edit/master/ontology/cybox>
 			rdf:type owl:Ontology ;
 			rdfs:label "CYBOX ontology"@en ;
 			owl:versionInfo "1.0"@en ;

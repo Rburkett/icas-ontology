@@ -9,14 +9,14 @@
 @prefix event: <http://purl.org/NET/c4dm/event.owl#> .
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix user: <http://www.invincea.com/ontologies/icas/1.0/user#> .
-@prefix : <http://www.invincea.com/ontologies/icas/1.0/user-applied#> .
+@prefix user: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/user#> .
+@prefix : <https://github.com/Rburkett/icas-ontology/edit/master/ontology/user-applied#> .
 
-<http://www.invincea.com/ontologies/icas/1.0/user-applied>
+<https://github.com/Rburkett/icas-ontology/edit/master/ontology/user-applied>
     a owl:Ontology ;
     rdfs:comment "This ontology contains additional predicates to the User ontology, intended to only be applied manually by a security analyst in the course of their work."@en ;
     rdfs:label "User Ontology - User Applied Elements"@en ;
-    owl:imports <http://www.invincea.com/ontologies/icas/1.0/user> ;
+    owl:imports <https://github.com/Rburkett/icas-ontology/edit/master/ontology/user> ;
     owl:versionInfo "1.0"@en .
 
 :CompromisedUserAccount

@@ -10,11 +10,11 @@
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
-@prefix : <http://www.invincea.com/ontologies/icas/1.0/scap-cve#> .
-@prefix tapio: <http://www.invincea.com/ontologies/icas/1.0/tapio#> .
-@base <http://www.invincea.com/ontologies/icas/1.0/scap-cve> .
+@prefix : <https://github.com/Rburkett/icas-ontology/edit/master/ontology/scap-cve#> .
+@prefix tapio: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/tapio#> .
+@base <https://github.com/Rburkett/icas-ontology/edit/master/ontology/scap-cve> .
 
-<http://www.invincea.com/ontologies/icas/1.0/scap-cve> 
+<https://github.com/Rburkett/icas-ontology/edit/master/ontology/scap-cve> 
 			rdf:type owl:Ontology ;
 			rdfs:label "SCAP Common Vulnerability Enumerations Ontology"@en ;
 			owl:versionInfo "1.0"@en .

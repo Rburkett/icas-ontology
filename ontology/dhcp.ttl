@@ -10,20 +10,20 @@
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix mere: <http://www.bbn.com/ontologies/domain/foundation/mereology#> .
-@prefix nic: <http://www.invincea.com/ontologies/icas/1.0/nic#> .
-@prefix tapio: <http://www.invincea.com/ontologies/icas/1.0/tapio#> .
-@prefix ipnet: <http://www.invincea.com/ontologies/icas/1.0/ipnet#> .
-@prefix host: <http://www.invincea.com/ontologies/icas/1.0/host#> .
-@prefix : <http://www.invincea.com/ontologies/icas/1.0/dhcp#> .
+@prefix nic: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/nic#> .
+@prefix tapio: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/tapio#> .
+@prefix ipnet: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/ipnet#> .
+@prefix host: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/host#> .
+@prefix : <https://github.com/Rburkett/icas-ontology/edit/master/ontology/dhcp#> .
 
-<http://www.invincea.com/ontologies/icas/1.0/dhcp>
+<https://github.com/Rburkett/icas-ontology/edit/master/ontology/dhcp>
     dc:creator "Invincea Labs"@en ;
     dc:date "2014" ;
     dc:description "Describes elements related to authentication mechanisms in systems that grant identity to users and requests to map them to privileges"@en ;
     a owl:Ontology ;
     rdfs:comment "an ontology of DHCP Leases and Services."@en ;
     rdfs:label "Dynamic Host Control Protocol Ontology"@en ;
-    owl:imports <http://www.invincea.com/ontologies/icas/1.0/ipnet>, <http://www.invincea.com/ontologies/icas/1.0/user> ;
+    owl:imports <https://github.com/Rburkett/icas-ontology/edit/master/ontology/ipnet>, <https://github.com/Rburkett/icas-ontology/edit/master/ontology/user> ;
     owl:versionInfo "1.0" .
 
 :Lease

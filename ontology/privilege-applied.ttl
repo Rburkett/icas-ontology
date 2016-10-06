@@ -9,13 +9,13 @@
 @prefix event: <http://purl.org/NET/c4dm/event.owl#> .
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix : <http://www.invincea.com/ontologies/icas/1.0/privilege-applied#> .
+@prefix : <https://github.com/Rburkett/icas-ontology/edit/master/ontology/privilege-applied#> .
 
-<http://www.invincea.com/ontologies/icas/1.0/privilege-applied>
+<https://github.com/Rburkett/icas-ontology/edit/master/ontology/privilege-applied>
     a owl:Ontology ;
     rdfs:comment "This ontology contains additional predicates to the Privilege ontology, intended to only be applied manually by a security analyst in the course of their work."@en ;
     rdfs:label "Privilege Ontology - User Applied Elements"@en ;
-    owl:imports <http://www.invincea.com/ontologies/icas/1.0/privilege> ;
+    owl:imports <https://github.com/Rburkett/icas-ontology/edit/master/ontology/privilege> ;
     owl:versionInfo "1.0"@en .
 
 :HijackedPrivilegeUsage

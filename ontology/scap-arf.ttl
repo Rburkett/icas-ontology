@@ -10,11 +10,11 @@
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
-@prefix : <http://www.invincea.com/ontologies/icas/1.0/scap-arf#> .
-@prefix tapio: <http://www.invincea.com/ontologies/icas/1.0/tapio#> .
-@base <http://www.invincea.com/ontologies/icas/1.0/scap-arf> .
+@prefix : <https://github.com/Rburkett/icas-ontology/edit/master/ontology/scap-arf#> .
+@prefix tapio: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/tapio#> .
+@base <https://github.com/Rburkett/icas-ontology/edit/master/ontology/scap-arf> .
 
-<http://www.invincea.com/ontologies/icas/1.0/scap-arf> 
+<https://github.com/Rburkett/icas-ontology/edit/master/ontology/scap-arf> 
 			rdf:type owl:Ontology ;
 			rdfs:label "Asset Reporting Format Ontology"@en ;
 			owl:versionInfo "1.0" ;

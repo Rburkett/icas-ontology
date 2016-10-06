@@ -3,7 +3,7 @@
 @prefix tzont: <http://www.w3.org/2006/timezone#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix tapio: <http://www.invincea.com/ontologies/icas/1.0/tapio#> .
+@prefix tapio: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/tapio#> .
 @prefix : <http://www.w3.org/2006/time#> .
 
 <http://www.w3.org/2006/time>

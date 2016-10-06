@@ -10,10 +10,10 @@
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
-@prefix : <http://www.invincea.com/ontologies/icas/1.0/stix-indicator#> .
-@base <http://www.invincea.com/ontologies/icas/1.0/stix-indicator> .
+@prefix : <https://github.com/Rburkett/icas-ontology/edit/master/ontology/stix-indicator#> .
+@base <https://github.com/Rburkett/icas-ontology/edit/master/ontology/stix-indicator> .
 
-<http://www.invincea.com/ontologies/icas/1.0/stix-incident>
+<https://github.com/Rburkett/icas-ontology/edit/master/ontology/stix-incident>
 			rdf:type owl:Ontology ;
 			rdfs:comment "Ontology described the STIX exchange format for describing security incidents and collecting workflow information about them."@en ;
 			rdfs:label "STIX Security Incident Ontology"@en ;

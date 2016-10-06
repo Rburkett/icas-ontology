@@ -3,11 +3,11 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix tapio: <http://www.invincea.com/ontologies/icas/1.0/tapio#> .
+@prefix tapio: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/tapio#> .
 @prefix event: <http://purl.org/NET/c4dm/event.owl#> .
-@prefix : <http://www.invincea.com/ontologies/icas/1.0/metadata#> .
+@prefix : <https://github.com/Rburkett/icas-ontology/edit/master/ontology/metadata#> .
 
-<http://www.invincea.com/ontologies/icas/1.0/metadata>
+<https://github.com/Rburkett/icas-ontology/edit/master/ontology/metadata>
     dc:creator "Invincea Labs"@en ;
     dc:date "2015" ;
     dc:description ""@en ;

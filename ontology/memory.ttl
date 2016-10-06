@@ -10,27 +10,27 @@
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix mere: <http://www.bbn.com/ontologies/domain/foundation/mereology#> .
-@prefix nic: <http://www.invincea.com/ontologies/icas/1.0/nic#> .
-@prefix oui: <http://www.invincea.com/ontologies/icas/1.0/oui#> .
-@prefix log: <http://www.invincea.com/ontologies/icas/1.0/log#> .
-@prefix user: <http://www.invincea.com/ontologies/icas/1.0/user#> .
-@prefix filesystem: <http://www.invincea.com/ontologies/icas/1.0/filesystem#> .
-@prefix tapio: <http://www.invincea.com/ontologies/icas/1.0/tapio#> .
-@prefix ipnet: <http://www.invincea.com/ontologies/icas/1.0/ipnet#> .
-@prefix hardware: <http://www.invincea.com/ontologies/icas/1.0/hardware#> .
-@prefix mime: <http://www.invincea.com/ontologies/icas/1.0/mime#> .
-@prefix process: <http://www.invincea.com/ontologies/icas/1.0/process#> .
-@prefix host: <http://www.invincea.com/ontologies/icas/1.0/host#> .
-@prefix : <http://www.invincea.com/ontologies/icas/1.0/memory#> .
+@prefix nic: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/nic#> .
+@prefix oui: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/oui#> .
+@prefix log: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/log#> .
+@prefix user: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/user#> .
+@prefix filesystem: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/filesystem#> .
+@prefix tapio: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/tapio#> .
+@prefix ipnet: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/ipnet#> .
+@prefix hardware: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/hardware#> .
+@prefix mime: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/mime#> .
+@prefix process: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/process#> .
+@prefix host: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/host#> .
+@prefix : <https://github.com/Rburkett/icas-ontology/edit/master/ontology/memory#> .
 
-<http://www.invincea.com/ontologies/icas/1.0/memory>
+<https://github.com/Rburkett/icas-ontology/edit/master/ontology/memory>
     dc:creator "Invincea Labs"@en ;
     dc:date "2014" ;
     dc:description "Describes high level organization and addressing of objects within Random Access Memory"@en ;
     a owl:Ontology ;
     rdfs:comment "Describes high level organization and addressing of objects within Random Access Memory"@en ;
     rdfs:label "An ontology for mapping regions of Memory Objects into their functional purposes."@en ;
-    owl:imports <http://www.invincea.com/ontologies/icas/1.0/filesystem>, <http://www.invincea.com/ontologies/icas/1.0/process> ;
+    owl:imports <https://github.com/Rburkett/icas-ontology/edit/master/ontology/filesystem>, <https://github.com/Rburkett/icas-ontology/edit/master/ontology/process> ;
     owl:versionInfo "1.0" .
 
 :Code

@@ -10,8 +10,8 @@
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
-@prefix : <http://www.invincea.com/ontologies/icas/1.0/stix-datamarking#> .
-@base <http://www.invincea.com/ontologies/icas/1.0/stix-datamarking> .
+@prefix : <https://github.com/Rburkett/icas-ontology/edit/master/ontology/stix-datamarking#> .
+@base <https://github.com/Rburkett/icas-ontology/edit/master/ontology/stix-datamarking> .
 
-<http://www.invincea.com/ontologies/icas/1.0/stix-datamarking> 
+<https://github.com/Rburkett/icas-ontology/edit/master/ontology/stix-datamarking> 
 			rdf:type owl:Ontology .

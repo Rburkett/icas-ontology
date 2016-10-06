@@ -10,18 +10,18 @@
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
-@prefix : <http://www.invincea.com/ontologies/icas/1.0/stix-actor#> .
-@prefix stix-campaign: <http://www.invincea.com/ontologies/icas/1.0/stix-campaign#> .
-@prefix stix-ttp: <http://www.invincea.com/ontologies/icas/1.0/stix-ttp#> .
-@prefix stix-common: <http://www.invincea.com/ontologies/icas/1.0/stix-common#> .
+@prefix : <https://github.com/Rburkett/icas-ontology/edit/master/ontology/stix-actor#> .
+@prefix stix-campaign: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/stix-campaign#> .
+@prefix stix-ttp: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/stix-ttp#> .
+@prefix stix-common: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/stix-common#> .
 
-@base <http://www.invincea.com/ontologies/icas/1.0/stix-actor> .
+@base <https://github.com/Rburkett/icas-ontology/edit/master/ontology/stix-actor> .
 
-<http://www.invincea.com/ontologies/icas/1.0/stix-actor> 
+<https://github.com/Rburkett/icas-ontology/edit/master/ontology/stix-actor> 
 			rdf:type owl:Ontology ;
 			rdfs:label "STIX Threat Actor Ontology"@en ;
-			owl:imports <http://www.invincea.com/ontologies/icas/1.0/stix-campaign> ,
-						<http://www.invincea.com/ontologies/icas/1.0/stix-ttp> .
+			owl:imports <https://github.com/Rburkett/icas-ontology/edit/master/ontology/stix-campaign> ,
+						<https://github.com/Rburkett/icas-ontology/edit/master/ontology/stix-ttp> .
 
 
 :AssociatedCampaigns 

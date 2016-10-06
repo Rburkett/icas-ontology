@@ -10,11 +10,11 @@
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
-@prefix tapio: <http://www.invincea.com/ontologies/icas/1.0/tapio#> .
-@prefix : <http://www.invincea.com/ontologies/icas/1.0/cwe#> .
-@base <http://www.invincea.com/ontologies/icas/1.0/cwe> .
+@prefix tapio: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/tapio#> .
+@prefix : <https://github.com/Rburkett/icas-ontology/edit/master/ontology/cwe#> .
+@base <https://github.com/Rburkett/icas-ontology/edit/master/ontology/cwe> .
 
-<http://www.invincea.com/ontologies/icas/1.0/cwe> 
+<https://github.com/Rburkett/icas-ontology/edit/master/ontology/cwe> 
 			rdf:type owl:Ontology ;
 			rdfs:label "Common Weakness Enumeration (CWE) Ontology"@en ;
 			dc:description "an ontology of Common Weakness Enumerations."@en ;

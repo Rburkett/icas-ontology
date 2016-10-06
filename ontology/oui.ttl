@@ -9,11 +9,11 @@
 @prefix event: <http://purl.org/NET/c4dm/event.owl#> .
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix tapio: <http://www.invincea.com/ontologies/icas/1.0/tapio#> .
-@prefix nic: <http://www.invincea.com/ontologies/icas/1.0/nic#> .
-@prefix : <http://www.invincea.com/ontologies/icas/1.0/oui#> .
+@prefix tapio: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/tapio#> .
+@prefix nic: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/nic#> .
+@prefix : <https://github.com/Rburkett/icas-ontology/edit/master/ontology/oui#> .
 
-<http://www.invincea.com/ontologies/icas/1.0/oui>
+<https://github.com/Rburkett/icas-ontology/edit/master/ontology/oui>
     dc:creator "Invincea Labs"@en ;
     dc:date "2014" ;
     dc:description "Describes OUI numbers that match hardware interfaces to their manufacturer."@en ;

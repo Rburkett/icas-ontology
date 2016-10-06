@@ -11,7 +11,7 @@
 @prefix event: <http://purl.org/NET/c4dm/event.owl#> .
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix tapio: <http://www.invincea.com/ontologies/icas/1.0/tapio#> .
+@prefix tapio: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/tapio#> .
 @prefix : <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 
 <http://www.w3.org/2003/01/geo/wgs84_pos>

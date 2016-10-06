@@ -10,15 +10,15 @@
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
-@prefix : <http://www.invincea.com/ontologies/icas/1.0/stix-campaign#> .
-@base <http://www.invincea.com/ontologies/icas/1.0/stix-campaign> .
+@prefix : <https://github.com/Rburkett/icas-ontology/edit/master/ontology/stix-campaign#> .
+@base <https://github.com/Rburkett/icas-ontology/edit/master/ontology/stix-campaign> .
 
-<http://www.invincea.com/ontologies/icas/1.0/stix-campaign> 
+<https://github.com/Rburkett/icas-ontology/edit/master/ontology/stix-campaign> 
 			rdf:type owl:Ontology ;
 			rdfs:label "STIX Campaign Ontology"@en ;
 			owl:versionInfo "1.0"@en ;
 			rdfs:comment "Ontology described the STIX exchange format for describing campaigns of attack by threat actors"@en ;
-			owl:imports <http://www.invincea.com/ontologies/icas/1.0/stix-core> .
+			owl:imports <https://github.com/Rburkett/icas-ontology/edit/master/ontology/stix-core> .
 
 
 :associatedWithThreatActor 
