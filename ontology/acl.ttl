@@ -10,19 +10,19 @@
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix mere: <http://www.bbn.com/ontologies/domain/foundation/mereology#> .
-@prefix tapio: <http://www.invincea.com/ontologies/icas/1.0/tapio#> .
-@prefix user: <http://www.invincea.com/ontologies/icas/1.0/user#> .
-@prefix filesystem: <http://www.invincea.com/ontologies/icas/1.0/filesystem#> .
-@prefix : <http://www.invincea.com/ontologies/icas/1.0/acl#> .
+@prefix tapio: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/tapio#> .
+@prefix user: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/user#> .
+@prefix filesystem: <https://github.com/Rburkett/icas-ontology/edit/master/ontology/filesystem#> .
+@prefix : <https://github.com/Rburkett/icas-ontology/edit/master/ontology/acl#> .
 
-<http://www.invincea.com/ontologies/icas/1.0/acl>
+<https://github.com/Rburkett/icas-ontology/edit/master/ontology/acl.ttl>
     dc:creator "Invincea Labs"@en ;
     dc:date "2014" ;
     dc:description "an ontology of common access control settings."@en ;
     a owl:Ontology ;
     rdfs:comment "an ontology of common access control settings."@en ;
     rdfs:label "Access Control List ontology"@en ;
-    owl:imports <http://www.invincea.com/ontologies/icas/1.0/user> ;
+    owl:imports <https://github.com/Rburkett/icas-ontology/edit/master/ontology/user.ttl> ;
     owl:versionInfo "1.0" .
 
 :ACL
